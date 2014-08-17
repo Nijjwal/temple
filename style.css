@@ -1,0 +1,200 @@
+/*   
+Theme Name: Temple Theme
+Theme URI: http://nijjwal.com.np
+Description: This is just a blank starter WordPress Theme template -- WordPress v3.0.1
+Author: Nijjwal Shrestha
+Author URI: http://nijjwal.com.np
+Version: 1
+*/
+
+* { margin: 0; padding: 0; }
+/*body { font: 14px/1.4 Georgia, serif; }*/
+
+/*
+html {background: black url(images/bg.png);}
+*/
+
+html,body { height:100%; }
+
+body{
+	margin:0;
+	padding:0;
+	height:100%;
+	position: relative;
+    color: #666666;
+    font-family: Helvetica,Arial,Sans-Serif;
+    font-size: 11px;
+	line-height: 120%:
+}
+
+.group:after { visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
+.group { display: inline-block; clear: both; }
+/* start commented backslash hack \*/ * html .group { height: 1%; } .group { display: block; } /* close commented backslash hack */
+
+
+
+
+h2{
+  color: #666666;
+  font-family: Helvetica,Arial,Sans-Serif;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+
+article, aside, figure, footer, header, nav, section { display: block; }
+
+/*Control top and bottom margin of page wrap element*/
+#page-wrap{
+position: relative;
+width: 960px; margin:0 auto; 
+height: auto !important;
+height: 100%;
+min-height:100%;
+}
+
+aside{
+  float:left;
+  width:320px;
+  padding:30px 0 0 0px;
+  
+}
+
+.widgetSocialMedia, .widgetForLogo{
+	float:none;
+	width:320px;
+	padding:75px 0 0 0px;
+	text-align:center;	
+}
+
+
+#main-content{
+	float:right;
+	width:600px;	
+	height: 100%;	
+}
+
+.entry{
+    float:right;
+	width:600px;	
+    margin-top:75px;	
+}
+
+
+
+
+.customEntrySecondColumn{
+	float: right;
+	width:425px;	
+    margin-top:75px;	
+	margin-left: 0px;
+	padding:0px 25px 0px 0px;
+}
+
+
+
+nav ul{
+ list-style: none;
+ padding: 10px 0px 10px 0px;
+ display: block;
+ margin: 0 0 5px 0;
+ text-decoration: none;
+ margin-top:-25px;
+}
+
+nav ul li a{
+    display: block;
+	margin: 0 0 5px 0;
+	background-color: none;
+	text-decoration: none;
+	padding: 0px 0px 10px 0px;
+}
+
+/*nth-child for my reference
+nav ul li:nth-child(2) {
+	background-color: #647484;
+	background-color: green;
+	background: green;
+}
+
+nav ul li:nth-child(3) {
+	background-color: #728c8c;
+}
+
+nav ul li:nth-child(4) {
+	background-color: #728c8c;
+}
+*/
+
+.widgets{
+  padding: 10px 10px 10px 10px;
+  background-color: #faba34;
+  text-align: left;
+  margin-top:20px;  
+}
+
+.Push {
+    clear: both;
+}
+
+footer{
+    clear: both;
+    width: 960px; 
+	margin:auto;	
+	color: #666666;
+}
+
+a:link {color:#666666;}    /* unvisited link */
+a:visited {color:#666666;} /* visited link */
+a:hover {color:black;}   /* mouse over link */
+a:active {color:#666666;}  /* selected link */
+
+#firstRightSidebar{
+   clear: right;
+   float: right;
+   width: 150px;
+   margin-top: 75px; 
+   height: 100%;   
+}
+
+#firstRightSidebarBlog{
+   clear: right;
+   float: right;
+   width: 150px;
+   margin-top: 75px; 
+   height: 100%;  
+}
+
+#thirdColumnforBlogPage{
+   clear: right;
+   float: right;
+   width: 150px;
+   margin-top: 75px; 
+   height: 100%; 
+    
+}
+
+.customBlogEntry{
+	float: right;
+	width:425px;	
+    margin-top:38px;	
+	margin-left: 0px;
+	padding:0px 25px 0px 0px;*/
+}
+
+body{
+line-height: 150%;
+}
+
+.customComments{
+   width: 425px;
+   margin-left: 360px;	
+}
+
+#entryForSinglePost{
+   margin-top: 75px;
+
+}
+
+
+
